@@ -75,7 +75,7 @@ define(function () {
 
         this.scaleSlider.slider({
             value: 1,
-            min: 1,
+            min: 0.5,
             max: 2,
             step: 0.1,
             animate: true,
@@ -88,7 +88,7 @@ define(function () {
         this.cornerSlider.slider({
             value: 1,
             min: 0,
-            max: 20,
+            max: 35,
             step: 1,
             animate: true,
             slide: function (event, ui) {
